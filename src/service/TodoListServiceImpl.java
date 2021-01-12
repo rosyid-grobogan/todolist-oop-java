@@ -17,11 +17,11 @@ public class TodoListServiceImpl implements TodoListService{
 
         System.out.println("TODOLIST");
         for (int i = 0; i < model.length; i++){
-            TodoList todo = model[i];
+            TodoList todoList = model[i];
             int no = i + 1;
 
-            if (todo != null){
-                System.out.println(no + ". "+ todo);
+            if (todoList != null){
+                System.out.println(no + ". "+ todoList.getTodo());
             }
         }
     }

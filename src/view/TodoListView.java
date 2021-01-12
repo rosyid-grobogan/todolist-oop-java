@@ -1,6 +1,6 @@
 package view;
 
-public class TodoList {
+public class TodoListView {
 
     public void showTodoList(){}
     public void addTodoList(){}

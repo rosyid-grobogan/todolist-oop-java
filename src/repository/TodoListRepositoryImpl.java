@@ -34,7 +34,7 @@ public class TodoListRepositoryImpl implements TodoListRepository{
                 if (i == (data.length - 1)){
                     data[i] = null;
                 }else {
-                    data[i] = data[i +1];
+                    data[i] = data[i + 1];
                 }
             }
 

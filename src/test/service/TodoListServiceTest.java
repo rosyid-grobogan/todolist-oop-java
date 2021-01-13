@@ -41,7 +41,8 @@ public class TodoListServiceTest {
         todoListService.addTodoList("Persiapan Kerja");
 
         todoListService.showTodoList();
-        todoListService.removeTodoList(6);
+        todoListService.removeTodoList(6);// failure
+        todoListService.removeTodoList(3);// success
 
         todoListService.showTodoList();
     }
